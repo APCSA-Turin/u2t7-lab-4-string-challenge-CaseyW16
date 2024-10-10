@@ -102,7 +102,7 @@ public class StringProblemsTest{
     void testfizzString1(){
         StringProblems o = new StringProblems();
         String expectedOutput = "Fizz";
-        String studentOutput= o.testfizzString("fig");
+        String studentOutput= o.fizzString("fig");
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -110,7 +110,7 @@ public class StringProblemsTest{
     void testfizzString2(){
         StringProblems o = new StringProblems();
         String expectedOutput = "Buzz";
-        String studentOutput= o.testfizzString("dib");
+        String studentOutput= o.fizzString("dib");
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -118,7 +118,7 @@ public class StringProblemsTest{
     void testfizzString3(){
         StringProblems o = new StringProblems();
         String expectedOutput = "FizzBuzz";
-        String studentOutput= o.testfizzString("fib");
+        String studentOutput= o.fizzString("fib");
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -128,7 +128,7 @@ public class StringProblemsTest{
     void testfizzString2A(){
         StringProblems o = new StringProblems();
         String expectedOutput = "1!";
-        String studentOutput= o.testfizzString2(1);
+        String studentOutput= o.fizzString2(1);
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -136,7 +136,7 @@ public class StringProblemsTest{
     void testfizzString2B(){
         StringProblems o = new StringProblems();
         String expectedOutput = "2!";
-        String studentOutput= o.testfizzString2(2);
+        String studentOutput= o.fizzString2(2);
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -144,7 +144,7 @@ public class StringProblemsTest{
     void testfizzString2C(){
         StringProblems o = new StringProblems();
         String expectedOutput = "Fizz!";
-        String studentOutput= o.testfizzString2(3);
+        String studentOutput= o.fizzString2(3);
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -152,7 +152,7 @@ public class StringProblemsTest{
     void testfizzString2D(){
         StringProblems o = new StringProblems();
         String expectedOutput = "Buzz!";
-        String studentOutput= o.testfizzString2(10);
+        String studentOutput= o.fizzString2(10);
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -161,7 +161,7 @@ public class StringProblemsTest{
     void testfizzString2E(){
         StringProblems o = new StringProblems();
         String expectedOutput = "FizzBuzz!";
-        String studentOutput= o.testfizzString2(15);
+        String studentOutput= o.fizzString2(15);
         assertEquals(expectedOutput,studentOutput);
     }
 
