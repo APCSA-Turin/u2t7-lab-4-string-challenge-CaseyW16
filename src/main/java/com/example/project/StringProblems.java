@@ -30,6 +30,7 @@ public class StringProblems {
         return s1 + s2;
     }
 
+
     // Given a string, return a version without the first 2 chars. 
     // Except keep the first char if it is 'a' and keep the second char if it is 'b'. 
     // The string may be any length. Harder than it looks.
@@ -60,6 +61,7 @@ public class StringProblems {
         return s1;
     }
 
+
     // Given a string str, if the string starts with "f" return "Fizz".
     //  If the string ends with "b" return "Buzz". If both the "f" and "b" 
     //  conditions are true, return "FizzBuzz". In all other cases, return the 
@@ -76,6 +78,7 @@ public class StringProblems {
         return s1;
     }
 
+    
     // Given an int n, return the string form of the number followed 
     // by "!". So the int 6 yields "6!". Except if the number is 
     // divisible by 3 use "Fizz" instead of the number, and if the 
